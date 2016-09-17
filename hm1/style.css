@@ -1,0 +1,105 @@
+<style>
+/*通用样式*/
+p {
+    line-height: em;
+}
+
+span {
+    font-weight: bold;
+}
+
+/*detail样式*/
+.left, .right {
+    float: left;
+}
+
+#box2, #box3, #box4{
+	float:left; 
+	width:200px;
+	height:200px;
+}
+
+.right {
+	
+	margin-left: 10px;
+    background-color: rgb(254,248,203);
+    width: 638px;
+    height: 200px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+#pic1 {
+    width: 60px;
+    margin: 0px;
+}
+
+#pic1, #score1 {
+    float: left;
+}
+
+#pic2, #score2 {
+    float: left;
+}
+
+#bar1, #bar2 {
+    float: left;
+}
+
+#box2 score1 {
+    font-size: 2em;
+}
+
+#box4 {
+    border-left: 2px rgb(235,228,167) solid; 
+    padding-left: 20px;
+    
+}
+
+.right-footer {
+    margin-top: 0;
+    margin-left: 0px;
+    font-size: 10px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.right-footer img, .submit {
+    float: left;
+}
+
+.upload {
+    border-left: 0px;
+}
+
+.submit {
+    position: relative;
+    left: 10px;
+    top: 0px;
+    padding-left: 20px;
+}
+
+#star-score {
+	position:relative;
+	left:20px;
+}
+#review {
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    top: 0px;
+    text-align: left;
+}
+
+.upload {
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+
+.percent {
+    font-size: 3em
+}
+
+</style>

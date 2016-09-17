@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>弹性宽度</title>
+	<style type="text/css">
+	.wrapper{
+		height: 500px;
+		border: 1px solid blue;
+		position: relative;
+	}
+		.left, .right{
+			box-sizing: border-box;
+			border: 1px solid red;
+			
+		}
+		.left{
+			width: 200px;
+			background-color: red;
+			height: 100%;
+		}
+		.right{
+			border: 1px solid red;
+			position: absolute;
+			top:10px;
+			right:10px;
+			bottom: 10px;
+			left: 210px;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="left">
+			
+		</div>
+		<div class="right">
+			
+		</div>
+	</div>
+</body>
+</html>

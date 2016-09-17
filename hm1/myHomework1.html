@@ -1,0 +1,111 @@
+<html>
+<head>
+	<title>烂番茄</title>
+
+	<style>
+
+	p{line-height:0.8em;}
+	#box1,#box2,#box3,#box4{float:left;}
+	#box2{margin-left:10px;}
+	#box2,#box3,#box4{background-color:pink;
+		width:200px;height:200px;float:left;padding-left:20px; font-size: 10px;}
+	#pic1{width:60px;length:60px;
+		margin: 0px;}
+	#pic1, #score1{float:left;}
+	#pic2, #score2{float:left;}
+	#bar1,#bar2{float:left;}
+	#box2 score1{font-size:2em;}
+	span{font-weight: bold;}
+	#box4{border-left:2px grey solid; }
+	#box5{margin-top:0; margin-left:215px; font-size: 10px;}
+	#box5 img, .submit{float:left;} 
+	.upload{border-left:0px; }
+	#box5{
+   	position:absolute;
+    left:10px;
+    top:200px;
+}
+	.submit{
+		position:relative;
+		left:10px;
+		top:0px;
+	}
+	#box6{float:left; 
+		position:absolute;
+    	left:90px;
+    	top:90px;
+}
+	.upload{position:relative;
+		left:0px;
+		top:10px;}
+	.percent{font-size: 3em}
+
+	</style>
+</head>
+<body>
+
+	<div class="mianPic" id="box1"> 
+		<img style="width:210px;height:310px;"src="C:\Users\Administrator\Desktop\myHomework1\v1.jpg" />
+	</div>
+
+
+	<div id="box2">
+		<p style="font-size:15px">TOMATOMETER</p>
+		<img id="pic1" style="width:50px; height:50px;background-color:pink" src="C:\Users\Administrator\Desktop\myHomework1\icons-v2.png" />
+		<div id="score1">
+			<span class="percent" style="position:relative; left:10px">86%</span>
+		</div>
+		<br/><br/><br/><br/>
+		
+		<p>Average Rating:<span>7.1/10</span></p>
+		<p>Reviews Counted:<span>139</span></p>
+		<p>Fresh:<span>120</span></p>
+		<p>Rotten:<span>19</span></p>
+		
+	</div>
+		<div id="box3">
+		<p style="font-size:15px"><span>All Critics</span> | Top Critics</p>
+		<div id="bar1" style="border-width:1px; height:20px; width: 150px; background-color:red;"></div>
+		<div id="bar2" style="border-width:1px; height:20px; width: 20px; background-color:grey;"></div>
+		<br/><br/>
+
+		<p>Critics Consensus:
+		<span><em>Don't <br/> Breathe </em></span>
+		<span style="line-height:1em;">smartly twists its <br/> 
+		sturdy premise to offer a satisfying tense, chilling <br/> 
+		addition to the home invasion <br/> 
+		genre that's all the more <br/> 
+		effective for its simplicity.
+		</span>
+		</p>
+		
+	</div>
+	<div id="box4">
+		<p style="font-size:15px">AUDIENCE SCORE</p>
+		<img id="pic2" style="width:50px; height:50px;background-color:pink" src="C:\Users\Administrator\Desktop\myHomework1\icons-v3.png" />
+		<div id="score2">
+			<span class="percent" style="position:relative; left:10px;top:0px;">83%</span> <br/> 
+			<span style="position:relative;left:10px;">liked it</span>
+		</div>
+		<br/><br/><br/><br/>
+		<p>Average Rating:<span>4.0/5</span></p>
+		<p>User Ratings:<span>19,961</span></p>
+		
+		
+	</div>
+	
+	<div id="box5" style="clear:both">
+	<p style="font-size:15px">ADD YOUR RATING</p>
+	<img src="C:\Users\Administrator\Desktop\myHomework1\actor.jpg"/>
+	<form method="post" action="save.php">
+		<input class="submit" style="color:blue; font-weight:bold;" type="submit" value="+WANT TO SEE" name="+WANT TO SEE"/>
+		<input class="submit" style="color:red;font-weight:bold;" type="submit" value="-NOT INTERESTED" name="-NOT INTERESTED"/>
+		<img style="position:absolute; left:400px; top:40px;" src="C:\Users\Administrator\Desktop\myHomework1\starbar1.png"/>
+		<div id="box6">
+			<textarea rows="3" cols="70">Add a Review (Optional) </textarea><br/>
+			<input class="upload" type="submit" value="Post"  name="Post" />
+		</div>
+	</form>  
+	</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+a:hover {
+    color: white;
+    background-color: gray;
+}
+
+.header {
+    display: inline-block;
+    background-color: black;
+    width: 944px;
+    height: 60px;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header p {
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    left: 0px;
+    margin: 0;
+}

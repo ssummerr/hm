@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>
+            烂番茄
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="left">
+            <img src="./v1.jpg" style="width:210px;height:310px;"/>
+        </div>
+        <div class="right">
+		<div id="box2">
+            <p style="font-size:15px">
+                TOMATOMETER
+            </p>
+            <img id="pic1" src="./icons-v2.png" style="width:50px; height:50px;background-color:pink"/>
+            <div id="score1">
+                <span class="percent" style="position:relative; left:10px">
+                    86%
+                </span>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <p>
+                Average Rating:
+                <span>
+                    7.1/10
+                </span>
+            </p>
+            <p>
+                Reviews Counted:
+                <span>
+                    139
+                </span>
+            </p>
+            <p>
+                Fresh:
+                <span>
+                    120
+                </span>
+            </p>
+            <p>
+                Rotten:
+                <span>
+                    19
+                </span>
+            </p>
+        </div>
+        <div id="box3">
+            <p style="font-size:15px">
+                <span>
+                    All Critics
+                </span>
+                | Top Critics
+            </p>
+            <div id="bar1" style="border-width:1px; height:20px; width: 150px; background-color:rgb(203,23,24);">
+            </div>
+            <div id="bar2" style="border-width:1px; height:20px; width: 20px; background-color:rgb(236,229,179);">
+            </div>
+            <br/>
+            <br/>
+         	<br/>
+
+            <p>
+                Critics Consensus:
+                <span>
+                    <em>
+                        Don't
+                        <br/>
+                        Breathe
+                    </em>
+                </span>
+                <span style="line-height:1em;">
+                    smartly twists its
+                    <br/>
+                    sturdy premise to offer a 
+                    <br/>
+                    satisfying tense, chilling
+                    <br/>
+                    addition to the home invasion
+                    <br/>
+                    genre that's all the more
+                    <br/>
+                    effective for its simplicity.
+                </span>
+            </p>
+        </div>
+        <div id="box4" >
+            <p style="font-size:15px" >
+                AUDIENCE SCORE
+            </p>
+            <img id="pic2" src="./icons-v3.png" style="width:50px; height:50px;background-color:pink"/>
+            <div id="score2">
+                <span class="percent" style="position:relative; left:10px;top:0px;">
+                    83%
+                </span>
+                <br/>
+                <span style="position:relative;left:10px;">
+                    liked it
+                </span>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <p>
+                Average Rating:
+                <span>
+                    4.0/5
+                </span>
+            </p>
+            <p>
+                User Ratings:
+                <span>
+                    19,961
+                </span>
+            </p>
+        </div>
+        
+        
+
+        <div class="right-footer"> 
+            <p style="font-size:15px; clear:both">
+                ADD YOUR RATING
+            </p>
+            <img src="./actor.jpg"/>
+            <form action="save.php" method="post">
+                <input class="submit" name="+WANT TO SEE" style="color:blue; font-weight:bold;" type="submit" value="+WANT TO SEE"/>
+                <input class="submit" name="-NOT INTERESTED" style="color:red;font-weight:bold;" type="submit" value="-NOT INTERESTED"/>
+                <img id="star-score" src="./starbar1.png">
+                <div id="review">
+                    <textarea cols="70" rows="3" >
+                        Add a Review (Optional)
+                    </textarea>
+                    <br/>
+                    <input class="upload" name="Post" type="submit" value="Post"/>
+                </div>
+            </form>
+        </div> 
+
+        </div>
+    </body>
+</html>
